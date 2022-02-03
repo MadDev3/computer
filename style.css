@@ -19,8 +19,8 @@ a:visited{
 }
 
 body{
-	background: linear-gradient(90deg, #3F3F3F, transparent 1px),
-linear-gradient(#3F3F3F, transparent 1px);
+	background: linear-gradient(90deg, #101010, transparent 1px),
+linear-gradient(#101010, transparent 1px);
 	background-color: black;
 	background-size: 15px 15px;
 	color: white;
