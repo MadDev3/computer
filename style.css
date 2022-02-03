@@ -19,10 +19,12 @@ a:visited{
 }
 
 body{
+	background: linear-gradient(90deg, #3F3F3F, transparent 1px),
+linear-gradient(#3F3F3F, transparent 1px);
 	background-color: black;
+	background-size: 15px 15px;
 	color: white;
 	font-family: 'Nunito', sans-serif;
-	
 }
 
 /* for header*/
@@ -131,6 +133,13 @@ header{
 	padding-right: 20px; 
 	border-radius: 100px;
 	background: linear-gradient(to right,#DF5950,#451046)
+}
+
+.buy button{
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 16px;
 }
 
 .pupil{
@@ -414,34 +423,46 @@ progress{
 
 .border-right{
 	border-left: 2px solid blue;
+	border-image: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	border-image-slice: 1;
 	height: 100%;
 }
 
 .border-left{
 	border-right: 2px solid blue;
 	height: 100%;
+	border-image: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	border-image-slice: 1;
 }
 
 .wood1{
 	height: 50px;
 	border-right: 2px solid blue;
 	border-bottom: 2px solid blue;
+	border-image: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	border-image-slice: 1;
 }
 
 .wood2{
 	height: 50px;
 	border-right: 2px solid blue;
+	border-image: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	border-image-slice: 1;
 }
 
 .wood1-right{
 	height: 50px;
 	border-left: 2px solid blue;
 	border-bottom: 2px solid blue;
+	border-image: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	border-image-slice: 1;
 }
 
 .wood2-right{
 	height: 50px;
 	border-left: 2px solid blue;
+	border-image: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	border-image-slice: 1;
 }
 
 .w1,.w2{
@@ -533,7 +554,7 @@ input{
 	font-family: 'Nunito', sans-serif;
 	font-size: 15px;
 	margin-left: 20px;
-	width: 70%;
+	width: 80%;
 	border: none;
 	outline: none;
 	background-color: rgba(0,0,0,0);
@@ -545,7 +566,18 @@ input{
 	background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 	padding-top: 5px;
 	padding-bottom: 5px;
-	width: 30%;
+	width: auto;
+	float: right;
+}
+
+.subscribe__button button{
+	border: none;
+	background-color: rgba(0,0,0,0);
+	font-size: 15px;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .soc-icons{
