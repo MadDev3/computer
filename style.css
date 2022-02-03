@@ -125,21 +125,20 @@ header{
 	text-align: center;
 }
 
-.buy{
-	height: 35px;
-	padding-top: 14px;
-	margin-right: 40px;
-	padding-left: 20px;
-	padding-right: 20px; 
-	border-radius: 100px;
-	background: linear-gradient(to right,#DF5950,#451046)
-}
 
-.buy button{
-	background-color: transparent;
+
+.bottom-line__content button{
 	border: none;
 	color: white;
 	font-size: 16px;
+	width: auto;
+	border-radius: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 35px;
+	margin-top: 7px;
+	margin-right: 10px;
+	background: linear-gradient(to right,#DF5950,#451046);
 }
 
 .pupil{
@@ -520,6 +519,7 @@ progress{
 	border-radius: 100px;
 	padding-bottom: 5px;
 	padding-top: 5px;
+	color: white;
 }
 
 /* footer*/
